@@ -1,0 +1,10 @@
+name: Pull Request Notification
+on: pull_request_Notification
+jobs:
+  integrations:                               
+    notifications:
+      - integrationName: email
+        type: email
+        recipients:
+          - L00162024@student.lyit.ie
+        sendConsoleLogs: true
